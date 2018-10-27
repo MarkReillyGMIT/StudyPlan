@@ -5,7 +5,7 @@ using System.Linq;
 using Foundation;
 using UIKit;
 
-namespace StudyPlan.iOS
+namespace Login.iOS
 {
     public class Application
     {

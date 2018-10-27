@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            xmlns:local="clr-namespace:Login"
+             x:Class="Login.HomePage">
+
+    <!-- need to see the local namespace
+    Login - solution name
+    -->
+    <TabbedPage.ToolbarItems>
+
+        <ToolbarItem Text="Add" x:Name="AddItem"
+                     Clicked="ToolbarItem_Clicked"/>
+        <ToolbarItem Text="Delete" x:Name="DeleteItem"
+                     Clicked="ToolbarItem_Clicked"/>
+
+    </TabbedPage.ToolbarItems>
+
+</TabbedPage>

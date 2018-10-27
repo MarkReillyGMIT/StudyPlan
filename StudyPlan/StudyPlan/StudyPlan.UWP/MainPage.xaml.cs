@@ -13,7 +13,7 @@ using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
 
-namespace StudyPlan.UWP
+namespace Login.UWP
 {
     public sealed partial class MainPage
     {
@@ -21,7 +21,7 @@ namespace StudyPlan.UWP
         {
             this.InitializeComponent();
 
-            LoadApplication(new StudyPlan.App());
+            LoadApplication(new global::Login.App());
         }
     }
 }
