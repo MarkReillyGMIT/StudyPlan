@@ -4,8 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Forms;
+using System.Data;
 
-namespace Login
+namespace StudyPlan
 {
     public partial class LoginPage : ContentPage
     {
@@ -13,6 +14,8 @@ namespace Login
         {
             InitializeComponent();
         }
+
+       
 
         private void btnLogin_Clicked(object sender, EventArgs e)
         {
@@ -32,5 +35,11 @@ namespace Login
 
             }
         }
+
+        private void btnNotRegistered_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new Registration());
+        }
+        
     }
 }

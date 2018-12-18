@@ -21,7 +21,7 @@ namespace Login.UWP
         {
             this.InitializeComponent();
 
-            LoadApplication(new global::Login.App());
+            LoadApplication(new global::StudyPlan.App());
         }
     }
 }

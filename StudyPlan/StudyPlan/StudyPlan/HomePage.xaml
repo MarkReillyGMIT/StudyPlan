@@ -1,19 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-            xmlns:local="clr-namespace:Login"
-             x:Class="Login.HomePage">
+            xmlns:local="clr-namespace:StudyPlan"
+             x:Class="StudyPlan.HomePage">
 
     <!-- need to see the local namespace
     Login - solution name
     -->
-    <TabbedPage.ToolbarItems>
+    <local:Tasks Title="Tasks"/>
+    <local:Calendar Title=" Calendar"/>
+    <local:Exams Title="Exams"/>
 
-        <ToolbarItem Text="Add" x:Name="AddItem"
-                     Clicked="ToolbarItem_Clicked"/>
-        <ToolbarItem Text="Delete" x:Name="DeleteItem"
-                     Clicked="ToolbarItem_Clicked"/>
-
-    </TabbedPage.ToolbarItems>
 
 </TabbedPage>

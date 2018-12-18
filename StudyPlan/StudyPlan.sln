@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudyPlan.iOS", "StudyPlan\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudyPlan.UWP", "StudyPlan\StudyPlan.UWP\StudyPlan.UWP.csproj", "{67BD261D-86C1-4249-A4FD-7E5FE390B610}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudyPlan", "StudyPlan\StudyPlan\StudyPlan.csproj", "{4CF69A20-34B3-468C-ABD8-C60F2CC2170D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StudyPlan", "StudyPlan\StudyPlan\StudyPlan.csproj", "{4CF69A20-34B3-468C-ABD8-C60F2CC2170D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
